@@ -1,5 +1,10 @@
 import { route } from './core/router';
 import './styles/app.css';
+import home from './templates/home';
+import pageNotFound from './templates/pageNotFound';
+
+home();
+pageNotFound();
 
 route('/', 'home', function() {
   this.where = 'here';
