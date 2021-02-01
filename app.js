@@ -1,4 +1,5 @@
 import { route } from './core/router';
+import './styles/app.css';
 
 route('/', 'home', function() {
   this.where = 'here';
