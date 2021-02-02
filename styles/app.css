@@ -3,9 +3,10 @@
 :root {
   --main_font: 'Montserrat', Verdana, sans-serif;
   --main_dark: rgb(25, 25, 28);
+  --main_dark2: rgba(25, 25, 28, 0.4);
   --main_light: rgb(247, 247, 252);
   --details: rgb(62, 36, 110);
-  --details2: rgb(150, 184, 250)
+  --details2: rgb(42, 86, 219)
 }
 
 * {
@@ -19,4 +20,28 @@ body {
   background: var(--main_light);
   font-family: var(--main_font);
   color: var(--main_dark);
+}
+
+.icon_home {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+.icon_home-path {
+  fill: var(--details);
+  transition: .4s;
+}
+
+.icon_home:hover .icon_home-path {
+  fill: var(--details2);
+}
+
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header404 {
+  text-align: center;
 }

@@ -1,0 +1,105 @@
+.form_box {
+  --shadow: 0 10px 10px var(--main_dark2);
+  position: relative;
+  background-image: linear-gradient(var(--details2), var(--details) 50%, var(--main_light) 50.1%, var(--main_light));
+  width: 30%;
+  min-height: 70vh;
+  height: auto;
+  margin: 40px auto;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* .form_name {
+  width: 70%;
+  margin: 11vh auto 0;
+  padding: 0.5em;
+  border: 2px solid var(--main_light);
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main_light);
+  border-radius: 10px;
+} */
+
+.form {
+  width: 85%;
+  border-radius: 5px;
+  background-color: var(--main_light);
+  padding: 15px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.icon_person {
+  display: block;
+  width: 30%;
+  height: auto;
+  margin: 15px auto 0;
+}
+
+.icon_person-path {
+  fill: var(--main_light);
+}
+
+.form * {
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+.form_name {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.form_input {
+  font-family: var(--main_font);
+  border: none;
+  outline: none;
+}
+
+.form_label {
+  text-transform: uppercase;
+  color: var(--details2);
+  font-weight: 700;
+  font-size: 0.7em;
+}
+
+.form_input-text {
+  border-bottom: 1px solid var(--main_dark);
+  background: inherit;
+  color: var(--main_dark);
+  transition: .4s;
+  padding: 2px;
+}
+
+.form_input-text:focus {
+  border-bottom: 1px solid var(--details2);
+}
+
+.form_input-submit {
+  cursor: pointer;
+  position: relative;
+  padding: 1.2em 0;
+  width: 60%;
+  align-self: center;
+  border-radius: 48px;
+  background-color: var(--details);
+  color: var(--main_light);
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  top: calc(10px * 2 + 0.9em + 1.2em);
+  transition: .4s;
+}
+
+.form_input-submit:hover {
+  background-color: var(--details2);
+}
