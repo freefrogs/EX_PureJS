@@ -37,3 +37,7 @@
 .option:hover {
   background-color: var(--details2);
 }
+
+.option_title {
+  margin-bottom: 15px;
+}

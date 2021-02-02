@@ -28,7 +28,7 @@
   display: block;
   width: 30%;
   height: auto;
-  margin: 15px auto 0;
+  margin: 10% auto 0;
 }
 
 .icon_person-path {
@@ -36,7 +36,7 @@
 }
 
 .form * {
-  margin: 10px 0;
+  margin: 0 0 10px;
   font-size: 0.9em;
 }
 
@@ -61,6 +61,7 @@
 
 .form_input-text {
   border-bottom: 1px solid var(--main_dark);
+  font-size: 1.2em;
   background: inherit;
   color: var(--main_dark);
   transition: .4s;
@@ -69,6 +70,10 @@
 
 .form_input-text:focus {
   border-bottom: 1px solid var(--details2);
+}
+
+.input_username {
+  margin-bottom: 40px;
 }
 
 .form_input-submit {
@@ -89,4 +94,11 @@
 
 .form_input-submit:hover {
   background-color: var(--details2);
+}
+
+.data_error {
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
 }

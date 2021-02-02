@@ -11,9 +11,10 @@ const home = () => {
       <form class="form">
         <h2 class="form_name">login</h2>
         <label class="form_label">Username</label>
-        <input type="text" class="form_input form_input-text">
+        <input type="text" class="form_input form_input-text input_username">
         <label class="form_label">Password</label>
-        <input type="password" class="form_input form_input-text">
+        <input type="password" class="form_input form_input-text input_password">
+        <p class="data_error"></p>
         <input type="submit" value="login" class="form_input form_input-submit">
       </form>
     </div>
