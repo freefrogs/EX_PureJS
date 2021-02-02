@@ -2,12 +2,18 @@ import { route } from './core/router';
 import './styles/app.css';
 import home from './templates/home';
 import pageNotFound from './templates/pageNotFound';
+import success from './templates/success';
 
 home();
 pageNotFound();
+success();
 
 route('/', 'home', function() {
-  this.where = 'here';
+  
+});
+
+route('/welcome', 'success', function() {
+  
 });
 
 route('/ex1', 'example1', function() {

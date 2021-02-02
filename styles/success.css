@@ -1,0 +1,39 @@
+.welcome {
+  width: 80%;
+  height: 80vh;
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.welcome_title {
+  color: var(--details2);
+  padding: 10px;
+}
+
+.welcome_question {
+  padding: 10px;
+}
+
+.options_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.option {
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  background-color: var(--details);
+  color: var(--main_light);
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: var(--details2);
+}

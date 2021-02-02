@@ -6,7 +6,8 @@
   --main_dark2: rgba(25, 25, 28, 0.4);
   --main_light: rgb(247, 247, 252);
   --details: rgb(62, 36, 110);
-  --details2: rgb(42, 86, 219)
+  --details2: rgb(42, 86, 219);
+  --shadow: 0 10px 15px var(--main_dark2);
 }
 
 * {
