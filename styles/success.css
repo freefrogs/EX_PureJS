@@ -1,6 +1,7 @@
 .welcome {
   width: 80%;
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
   margin: 10px auto;
   padding: 20px;
   box-shadow: var(--shadow);
@@ -17,7 +18,7 @@
 
 .options_box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -40,4 +41,16 @@
 
 .option_title {
   margin-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+  .option {
+    width: 40%;
+  }
+}
+
+@media (max-width: 550px) {
+  .option {
+    width: 80%;
+  }
 }

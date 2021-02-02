@@ -102,3 +102,27 @@
   margin-top: 10px;
   text-align: center;
 }
+
+@media (max-width: 1200px) {
+  .form_box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .form_box {
+    width: 70%;
+  }
+}
+
+@media (max-width: 550px) {
+  .form_box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .icon_person {
+    width: 50%;
+  }
+}
