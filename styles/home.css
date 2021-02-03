@@ -4,7 +4,7 @@
   width: 30%;
   min-height: 70vh;
   height: auto;
-  margin: 40px auto;
+  margin: 0 auto 10vh;
   box-shadow: var(--shadow);
   padding: 20px;
   border-radius: 5px;
@@ -28,7 +28,7 @@
   display: block;
   width: 30%;
   height: auto;
-  margin: 10% auto 0;
+  margin: 1vh auto 0;
 }
 
 .icon_person-path {
@@ -79,6 +79,7 @@
 .form_input-submit {
   cursor: pointer;
   position: relative;
+  margin: 0;
   padding: 1.2em 0;
   width: 60%;
   align-self: center;
@@ -88,7 +89,7 @@
   text-transform: uppercase;
   font-weight: 700;
   box-shadow: var(--shadow);
-  top: calc(10px * 2 + 0.9em + 1.2em);
+  top: calc(10px + 0.9em + 1.2em);
   transition: .4s;
 }
 
@@ -96,11 +97,16 @@
   background-color: var(--details2);
 }
 
+.form_input-submit:active {
+  background-color: var(--main_dark);
+}
+
 .data_error {
   color: red;
   font-weight: 700;
   margin-top: 10px;
   text-align: center;
+  margin: 0;
 }
 
 @media (max-width: 1200px) {
@@ -121,7 +127,11 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+  .form_box {
+    min-height: 90vh;
+    margin: 1vh auto;
+  }
   .icon_person {
     width: 50%;
   }

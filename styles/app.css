@@ -38,9 +38,13 @@ body {
   fill: var(--details2);
 }
 
+.icon_home:active .icon_home-path {
+  fill: var(--main_dark);
+}
+
 .footer {
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 0 10px;
 }
 
 .header404 {

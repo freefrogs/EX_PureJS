@@ -61,7 +61,6 @@ route('/', 'home', function() {
   })
 });
 
-route('/welcome', 'success', function() {
-});
+route('/welcome', 'success', function() {});
 
 route('*', '404', function () {});
